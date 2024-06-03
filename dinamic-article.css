@@ -1,0 +1,10 @@
+@media screen and (max-width: 800px) {
+
+    .post img {
+        width: 450px;
+    }
+    .container {
+        width: 450px;
+    }
+
+}
