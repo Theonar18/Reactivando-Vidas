@@ -1,0 +1,70 @@
+@media screen and (max-width: 600px) {
+    .headerbar {
+        display:block;
+    }
+
+    .headerbar .logo{
+        text-align: center;
+        padding-top: 15px;
+    }
+
+    .headerbar i {
+        display: none;
+    }
+
+    .menu a li {
+        padding-left: 10px;
+    }
+    
+    .menu a li:hover {
+        padding-right: 15px;
+        padding-left: 15px;
+        padding-top: 3px;
+        padding-bottom: 3px;
+    }
+
+    .headerbar ul {
+        margin-left: 10%;
+        margin-right: 10%;
+        justify-content:space-between;
+    }
+
+    .container {
+        padding-top: 100px;
+    }
+
+}
+
+@media screen and (max-width: 660px) {
+
+    .headerbar i {
+        display: none;
+    }
+
+    .menu a li:hover {
+        padding-right: 15px;
+        padding-left: 15px;
+        padding-top: 3px;
+        padding-bottom: 3px;
+    }
+
+    .menu a li.activo {
+        padding-left: 10px;
+    }
+
+    .menu a li.activo:hover {
+        padding-left: 15px;
+    }
+
+}
+
+@media screen and (max-width: 550px) {
+
+    .headerbar i {
+        display: none;
+    }
+    .actual-page {
+        display: none;
+    }
+    
+}
