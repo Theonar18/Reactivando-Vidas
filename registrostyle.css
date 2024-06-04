@@ -1,0 +1,56 @@
+.footer-1 {
+    bottom: 0;
+}
+
+.registro {
+    background-color: #fff;
+    margin: 1rem 0;
+    border-radius: 0.5rem;
+    padding: 60px;
+    box-sizing: border-box;
+    box-shadow: 0 2px 2px rgba(0,0,0,0.3);
+    font-weight: bold;
+    font-size: larger;
+}
+
+.registro h2 {
+    text-align: center;
+}
+
+.registro label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.registro input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    border-color: #6fafff;
+}
+
+.btn-ingresar {
+    margin-bottom: 20px;
+}
+
+.btn-ingresar button {
+    padding: 10px 20px;
+    cursor: pointer;
+    border: none;
+    background-color: #6fafff;
+    color: white;
+    transition: background-color 0.3s;
+    font-weight: bold;
+    font-size: medium;
+    border-radius: 30px;
+}
+
+.btn-ingresar button:hover {
+    background-color: #5d9dea;
+    box-shadow: 0 2px 2px rgba(0,0,0,0.2);
+}
+
+.form-login, .btn-ingresar {
+    margin-top: 30px;
+}
