@@ -1,0 +1,32 @@
+@media screen and (max-width: 800px) {
+
+    .post img {
+        width: 500px;
+    }
+    .container {
+        width: 500px;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+
+    .post img {
+        width: 400px;
+    }
+    .container {
+        width: 400px;
+    }
+
+}
+
+@media screen and (max-width: 550px) {
+
+    .post img {
+        width: 350px;
+    }
+    .container {
+        width: 350px;
+    }
+    
+}
