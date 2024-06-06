@@ -1,0 +1,10 @@
+.contenido div {
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+
+.contenido div p {
+    font-size: larger;
+    margin: 30px;
+}

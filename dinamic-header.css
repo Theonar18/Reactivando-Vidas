@@ -41,6 +41,10 @@
         display: none;
     }
 
+    .headerbar .fa-user-circle-o {
+        display:contents;
+    }
+
     .menu a li:hover {
         padding-right: 15px;
         padding-left: 15px;
@@ -63,6 +67,11 @@
     .headerbar i {
         display: none;
     }
+
+    .headerbar .fa-user-circle-o {
+        display:flexbox;
+    }
+
     .actual-page {
         display: none;
     }

@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="pa-printstyle.css" />
+    <link rel="stylesheet" href="tabla.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Citas</title>
+  </head>
+  <body>
+    <section class="contenedor">
+      <header>
+        <h1>Citas</h1>
+      </header>
+      <nav class="navegación">
+        <div>
+          <div class="logo">
+            <a href="index.html">Reactivando Vidas</a>
+          </div>
+          <ul>
+            <a href="pa-inicio.html">
+              <li><i class="fa fa-home"></i>Inicio</li>
+            </a>
+            <a href="pa-pacientes.html">
+              <li><i class="fa fa-user"></i>Pacientes</li>
+            </a>
+            <a href="pa-productos.html">
+              <li><i class="fa fa-shopping-cart"></i>Productos</li>
+            </a>
+            <a href="pa-servicios.html">
+              <li><i class="fa fa-users"></i>Servicios</li>
+            </a>
+            <a href="pa-citas.html">
+              <li class="activo"><i class="fa fa-calendar-o" aria-hidden="true"></i>Citas</li>
+            </a>
+            <a href="registro.html">
+              <li><i class="fa fa-sign-out"></i>Cerrar sesión</li>
+            </a>
+          </ul>
+        </div>
+      </nav>
+      <section class="contenido">
+        <div>
+          <h2>Gestión de Citas</h2>
+        </div>
+        <div>
+          <div class="btn-agregar">
+            <a href="citas-registro.html">
+              <button><i class="fa fa-plus"></i> Agregar Cita</button>
+            </a>
+          </div>
+
+          <table>
+            <thead>
+              <tr>
+                <th>ID</th>
+                <th>Paciente</th>
+                <th>Fecha</th>
+                <th>Servicio</th>
+                <th>Empleado</th>
+                <th>Operaciones</th>
+              </tr>
+            </thead>
+            <tbody>
+              <!-- Registo de ejemplo -->
+              <tr>
+                <td>1</td>
+                <td>Angel Azul Sanchez</td>
+                <td>25-03-2024</td>
+                <td>Tratamiento de Esguinces</td>
+                <td>Lic. José Carlos Naredo Matamoros</td>
+                <td>
+                  <div class="operaciones">
+                    <a href="vista-citas.html">
+                      <button><i class="fa fa-eye"></i> Ver</button>
+                    </a>
+                    <button><i class="fa fa-pencil"></i> Editar</button>
+                    <button><i class="fa fa-trash"></i> Eliminar</button>
+                  </div>
+                </td>
+              </tr>
+
+              <tr>
+                <td>2</td>
+                <td>Paulina Cruz Juarez</td>
+                <td>28-03-2024</td>
+                <td>Tratamiento de Fracturas</td>
+                <td>Lic. José Carlos Naredo Matamoros</td>
+                <td>
+                  <div class="operaciones">
+                    <a href="vista-citas.html#2">
+                      <button><i class="fa fa-eye"></i> Ver</button>
+                    </a>
+                    <button><i class="fa fa-pencil"></i> Editar</button>
+                    <button><i class="fa fa-trash"></i> Eliminar</button>
+                  </div>
+                </td>
+              </tr>
+
+              <tr>
+                <td>3</td>
+                <td>Emmanuel Mendez Dominguez</td>
+                <td>04-04-2024</td>
+                <td>Tratamiento de Parálisis Facial</td>
+                <td>Lic. José Carlos Naredo Matamoros</td>
+                <td>
+                  <div class="operaciones">
+                    <a href="vista-citas.html#3">
+                      <button><i class="fa fa-eye"></i> Ver</button>
+                    </a>
+                    <button><i class="fa fa-pencil"></i> Editar</button>
+                    <button><i class="fa fa-trash"></i> Eliminar</button>
+                  </div>
+                </td>
+              </tr>
+
+              <tr>
+                <td>4</td>
+                <td>Obed Capistran Velazquez</td>
+                <td>10-04-2024</td>
+                <td>Hemiplejias</td>
+                <td>Lic. José Carlos Naredo Matamoros</td>
+                <td>
+                  <div class="operaciones">
+                    <a href="vista-citas.html#4">
+                      <button><i class="fa fa-eye"></i> Ver</button>
+                    </a>
+                    <button><i class="fa fa-pencil"></i> Editar</button>
+                    <button><i class="fa fa-trash"></i> Eliminar</button>
+                  </div>
+                </td>
+              </tr>
+
+              <tr>
+                <td>5</td>
+                <td>Emmanuel Mendez Dominguez</td>
+                <td>14-04-2024</td>
+                <td>Masaje Relajante</td>
+                <td>Lic. José Carlos Naredo Matamoros</td>
+                <td>
+                  <div class="operaciones">
+                    <a href="vista-citas.html#5">
+                      <button><i class="fa fa-eye"></i> Ver</button>
+                    </a>
+                    <button><i class="fa fa-pencil"></i> Editar</button>
+                    <button><i class="fa fa-trash"></i> Eliminar</button>
+                  </div>
+                </td>
+              </tr>
+
+              <tr>
+                <td>6</td>
+                <td>Paulina Cruz Juarez</td>
+                <td>29-04-2024</td>
+                <td>Masaje de Cuerpo Completo</td>
+                <td>Lic. José Carlos Naredo Matamoros</td>
+                <td>
+                  <div class="operaciones">
+                    <a href="vista-citas.html#6">
+                      <button><i class="fa fa-eye"></i> Ver</button>
+                    </a>
+                    <button><i class="fa fa-pencil"></i> Editar</button>
+                    <button><i class="fa fa-trash"></i> Eliminar</button>
+                  </div>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+    </section>
+  </body>
+</html>

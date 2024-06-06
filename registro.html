@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="prinstyle.css" />
+    <link rel="stylesheet" href="articlestyle.css" />
+    <link rel="stylesheet" href="registrostyle.css" />
+    <link rel="stylesheet" href="dinamic-article.css" />
+    <link rel="stylesheet" href="dinamic-header.css" />
+    <link rel="stylesheet" href="dinamic-footer.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registro</title>
+  </head>
+  <body>
+    <section class="contenedor">
+      <header>
+        <nav class="headerbar">
+          <div class="logo"><a href="index.html">Reactivando Vidas</a></div>
+          <ul class="menu">
+            <a href="index.html" class="actual-page">
+              <li><i class="fa fa-home"></i>Inicio</li>
+            </a>
+            <a href="servicios.html">
+              <li><i class="fa fa-user-md" aria-hidden="true"></i>Servicios</li>
+            </a>
+            <a href="contacto.html">
+              <li>
+                <i class="fa fa-address-card" aria-hidden="true"></i>Contacto
+              </li>
+            </a>
+            <a href="registro.html">
+              <li class="activo">
+                <i class="fa fa-user-circle-o" aria-hidden="true"></i>
+              </li>
+            </a>
+          </ul>
+        </nav>
+      </header>
+      <section class="container">
+        <div class="registro">
+          <h2>Inicio de Sesión</h2>
+          <form>
+            <div class="form-login">
+              <label for="correo">Correo:</label>
+              <input type="email" name="correo" id="correo" required />
+            </div>
+            <div class="form-login">
+              <label for="contraseña">Contraseña:</label>
+              <input type="password" name="contraseña" id="contraseña" />
+            </div>
+            <div class="btn-ingresar">
+              <button type="submit">
+                <a href="pa-inicio.html">Ingresar</a>
+              </button>
+            </div>
+          </form>
+        </div>
+      </section>
+      <footer class="footer-1">
+        <div>
+          <p id="copyright">Copyright © 2024.<br />Reactivando Vidas.</p>
+          <p id="correo-electronico">
+            Contáctanos en
+            <a href="mailto:reactivando.vidas.cuitlahuac@gmail.com"
+              >reactivando.vidas.cuitlahuac@gmail.com</a
+            >
+          </p>
+          <ul class="footer-links">
+            <li>
+              <a
+                href="https://www.facebook.com/profile.php?id=100077319315258"
+                class="fa fa-facebook"
+              ></a
+              >
+            </li>
+            <li style="display: none">
+              <a href="#" class="fa fa-twitter"></a>X
+            </li>
+            <li style="display: none">
+              <a href="#" class="fa fa-instagram"></a>Instagram
+            </li>
+          </ul>
+        </div>
+      </footer>
+    </section>
+  </body>
+</html>
