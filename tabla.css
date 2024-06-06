@@ -1,0 +1,48 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+table, th, td {
+    border: 1px solid #ddd;
+}
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+th {
+    background-color: #d7f2ff;
+}
+
+.operaciones {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: space-between;
+}
+.operaciones button {
+    padding: 5px 10px;
+    cursor: pointer;
+    border: none;
+    background-color: #c8eeff;
+    transition: background-color 0.3s;
+    border-radius: 10px;
+}
+.operaciones button:hover {
+    background-color: #ccc;
+}
+
+.btn-agregar {
+    margin-bottom: 20px;
+}
+.btn-agregar button {
+    padding: 10px 20px;
+    cursor: pointer;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 20px;
+    transition: background-color 0.3s;
+}
+.btn-agregar button:hover {
+    background-color: #45a049;
+}
