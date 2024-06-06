@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="pa-printstyle.css" />
+    <link rel="stylesheet" href="pa-formstyle.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registro de Pacientes</title>
+  </head>
+  <body>
+    <section class="contenedor">
+      <header>
+        <h1>Pacientes</h1>
+      </header>
+      <nav class="navegación">
+        <div>
+          <div class="logo">
+            <a href="index.html">Reactivando Vidas</a>
+          </div>
+          <ul>
+            <a href="pa-inicio.html">
+              <li><i class="fa fa-home"></i>Inicio</li>
+            </a>
+            <a href="pa-pacientes.html">
+              <li class="activo"><i class="fa fa-user"></i>Pacientes</li>
+            </a>
+            <a href="pa-productos.html">
+              <li><i class="fa fa-shopping-cart"></i>Productos</li>
+            </a>
+            <a href="pa-servicios.html">
+              <li><i class="fa fa-users"></i>Servicios</li>
+            </a>
+            <a href="pa-citas.html">
+              <li><i class="fa fa-calendar-o" aria-hidden="true"></i>Citas</li>
+            </a>
+            <a href="registro.html">
+              <li><i class="fa fa-sign-out"></i>Cerrar sesión</li>
+            </a>
+          </ul>
+        </div>
+      </nav>
+      <section class="contenido">
+        <div>
+          <h2>Registro de Pacientes</h2>
+        </div>
+        <div>
+          <form class="registros">
+            <div class="form-group">
+              <label for="nombre">Nombre:</label>
+              <input type="text" id="nombre" name="nombre" required />
+            </div>
+            <div class="form-group">
+              <label for="apellidoP">Apellido Paterno:</label>
+              <input type="text" id="apellidoP" name="apellidoP" required />
+            </div>
+            <div class="form-group">
+              <label for="apellidoM">Apellido Materno:</label>
+              <input type="text" id="apellidoM" name="apellidoM" required />
+            </div>
+            <div class="form-group">
+              <label for="telefono">Teléfono:</label>
+              <input type="tel" id="telefono" name="telefono" required />
+            </div>
+            <div class="form-group">
+              <label for="correo">Correo:</label>
+              <input type="email" id="correo" name="correo" required />
+            </div>
+            <div class="date-form">
+              <label for="fecha_nacimiento">Fecha de Nacimiento:</label>
+              <input
+                type="date"
+                id="fecha_nacimiento"
+                name="fecha_nacimiento"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label for="seleccion_sexo">Sexo:</label>
+              <select name="seleccion_sexo" id="seleccion_sexo" required>
+                <option value="vacio">No especificar</option>
+                <option value="hombre">Hombre</option>
+                <option value="mujer">Mujer</option>
+              </select>
+            </div>
+            <div class="btn-agregar">
+              <button type="submit">Agregar</button>
+              <button type="reset">Reiniciar</button>
+              <a href="pa-pacientes.html"
+                ><button type="button">Volver</button></a
+              >
+            </div>
+          </form>
+        </div>
+      </section>
+    </section>
+  </body>
+</html>
