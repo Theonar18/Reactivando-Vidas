@@ -1,70 +1,65 @@
-@media screen and (max-width: 600px) {
-    .headerbar {
-        display:block;
-    }
+@media (max-width: 992px) {
 
-    .headerbar .logo{
-        text-align: center;
-        padding-top: 15px;
-    }
-
-    .headerbar i {
+    .menu li i {
         display: none;
     }
 
-    .menu a li {
-        padding-left: 10px;
-    }
-    
-    .menu a li:hover {
-        padding-right: 15px;
-        padding-left: 15px;
-        padding-top: 3px;
-        padding-bottom: 3px;
+    .menu li .fa-user-circle-o {
+        display: block;
     }
 
-    .headerbar ul {
-        margin-left: 10%;
-        margin-right: 10%;
-        justify-content:space-between;
-    }
-
-    .container {
-        padding-top: 100px;
-    }
-
-}
-
-@media screen and (max-width: 660px) {
-
-    .headerbar i {
-        display: none;
-    }
-
-    .menu a li:hover {
-        padding-right: 15px;
-        padding-left: 15px;
-        padding-top: 3px;
-        padding-bottom: 3px;
-    }
-
-    .menu a li.activo {
+    .headerbar ul a li.activo {
         padding-left: 10px;
     }
 
-    .menu a li.activo:hover {
+    .headerbar ul a li.activo:hover {
+        padding-left: 15px;
+    }
+
+    .headerbar ul a li:hover {
         padding-left: 15px;
     }
 
 }
 
-@media screen and (max-width: 550px) {
+@media (max-width: 768px){
 
-    .headerbar i {
-        display: none;
+    .headerbar{
+        height: 65px;
+        border-radius: 0;
     }
-    .actual-page {
-        display: none;
+
+    .menu {
+        flex-direction: column;
+        align-items: center;
+        margin: 0%;
+        background-color: #4682ca;
+        position: fixed;
+        left: 0%;
+        top: 65px;
+        width: 100%;
+        padding: 0;
+        border-radius: 0 0 20px 20px;
+        box-shadow: 0 2px 2px rgba(0, 0, 0, 0.4);
+        left: 100%;
+        transition: left 0.3s;
     }
-    
+
+    .menu li i {
+        font-size: x-large;
+    }
+
+    .menu a {
+        font-size: large;
+    }
+
+    .toggle {
+        display: block;
+        font-size: x-large;
+    }
+
+    .menu_visible {
+        left: 0;
+    }
+
 }

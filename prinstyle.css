@@ -9,7 +9,7 @@ html {
 }
 
 body {
-    background-color: #ccdae7;
+    background-color: #ffffff;
 }
 
 .headerbar {
@@ -28,7 +28,7 @@ body {
 .logo {
     font-family: "Josefin Sans", sans-serif;
     font-size:x-large;
-    color: white;
+    color: rgb(255, 255, 255);
     font-weight: 100;
     padding-left: 1rem;
 }
@@ -47,10 +47,11 @@ body {
 
 .menu li i {
     margin: 0.5rem;
+    font-size:larger;
 }
 
 .headerbar a {
-    color: white;
+    color: rgb(255, 255, 255);
     text-decoration: none;
     text-shadow: 0 2px 4px rgba(0,0,0,0.4);
 }
@@ -111,6 +112,8 @@ footer {
     padding: 0;
     border-top-left-radius: 1.5rem;
     border-top-right-radius: 1.5rem;
+    font-size: medium;
+    font-weight: bold;
 }
 
 .footer-1 div{
@@ -128,6 +131,7 @@ footer {
 
 #copyright {
     font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
 }
 
 .footer-1 li {
@@ -140,4 +144,13 @@ footer {
     text-decoration: none;
     color: white;
     margin-right: 1rem;
+}
+
+.toggle {
+    color: #fff;
+    background: none;
+    border: none;
+    padding: 0 20px;
+    line-height: 60px;
+    display: none;
 }

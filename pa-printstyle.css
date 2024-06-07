@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'montserrat', sans-serif;
+}
+
+header {
+    background-color: #6fafff;
+    height: 100%;
+    padding-block: 10px;
+    margin-top: 0;
+    color: #fff;
+    box-shadow: 0px 2px 2px rgba(0,0,0,0.3);
+}
+
+.logo {
+    text-align: center;
+    font-weight: bold;
+    font-size:larger;
+    padding-bottom: 10px;
+    text-shadow: 0 2px 2px rgba(0,0,0,0.4);
+}
+
+.contenedor {
+    background-color: #ffffff;
+}
+
+.navegación {
+    width: 150px;
+    background-color: #6fafff;
+    padding-top: 20px;
+    top: 0;
+    left: 0;
+    height: 100vh; 
+    position: fixed; 
+    overflow-y: auto;
+    color: #fff;
+    box-shadow: 2px 0px 2px rgba(0,0,0,0.3);
+}
+
+.navegación ul {
+    list-style-type: none;
+    padding: 0;
+}
+.navegación ul li {
+    padding: 15px 20px;
+    margin: 4px 0;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border-radius: 50px;
+}
+.navegación ul li:hover {
+    background-color: #b0d4ff;
+    color: #000;
+    box-shadow: 0px 2px 2px rgba(0,0,0,0.4);
+}
+
+.navegación ul li.activo {
+    background-color: #b0d4ff;
+    color: #000;
+    box-shadow: 0px 2px 2px rgba(0,0,0,0.4);
+}
+
+.navegación ul li i {
+    margin-right: 10px;
+}
+
+.navegación a {
+    text-decoration: none;
+    color: inherit; /* Hereda el color del elemento superior */
+}
+
+header {
+
+    margin-left: 150px; /* Debe ser igual al ancho del menú */
+    padding: 20px;
+    width: 100%; /* Ajusta el contenido considerando el menú */
+
+}
+
+.contenido {
+    width: 100% calc(100% - 200px); /*Ajusta el contenido considerando el menú */
+    margin-left: 150px; /* Debe ser igual al ancho del menú */
+    padding: 20px;
+}
+
+.contenido div {
+    background-color: #fff;
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    box-shadow: 0 2px 2px rgba(0,0,0,0.3);
+}
+
+.contenido div h2 {
+    margin-bottom: 5px;
+}
