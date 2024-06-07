@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="pa-printstyle.css" />
+    <link rel="stylesheet" href="tabla.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pacientes</title>
+  </head>
+  <body>
+    <section class="contenedor">
+      <header>
+        <h1>Pacientes</h1>
+      </header>
+      <nav class="navegación">
+        <div>
+          <div class="logo">
+            <a href="index.html">Reactivando Vidas</a>
+          </div>
+          <ul>
+            <a href="pa-inicio.html">
+              <li><i class="fa fa-home"></i>Inicio</li>
+            </a>
+            <a href="pa-pacientes.html">
+              <li class="activo"><i class="fa fa-user"></i>Pacientes</li>
+            </a>
+            <a href="pa-productos.html">
+              <li><i class="fa fa-shopping-cart"></i>Productos</li>
+            </a>
+            <a href="pa-servicios.html">
+              <li><i class="fa fa-users"></i>Servicios</li>
+            </a>
+            <a href="pa-citas.html">
+              <li><i class="fa fa-calendar-o" aria-hidden="true"></i>Citas</li>
+            </a>
+            <a href="registro.html">
+              <li><i class="fa fa-sign-out"></i>Cerrar sesión</li>
+            </a>
+          </ul>
+        </div>
+      </nav>
+      <section class="contenido">
+        <div>
+          <h2>Gestión de Pacientes</h2>
+        </div>
+        <div>
+          <div class="btn-agregar">
+            <a href="pacientes-registro.html">
+              <button><i class="fa fa-plus"></i> Agregar Paciente</button>
+            </a>
+          </div>
+
+          <table>
+            <thead>
+              <tr>
+                <th>Nombre</th>
+                <th>Apellido Paterno</th>
+                <th>Apellido Materno</th>
+                <th>Teléfono</th>
+                <th>Correo</th>
+                <th>Operaciones</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Paula</td>
+                <td>Rodriguez</td>
+                <td>Salgado</td>
+                <td>271-134-1803</td>
+                <td>paula.rodriguez@utcv.edu.mx</td>
+                <td>
+                  <div class="operaciones">
+                    <a href="vista-pacientes.html">
+                      <button><i class="fa fa-eye"></i> Ver</button>
+                    </a>
+                    <button><i class="fa fa-pencil"></i> Editar</button>
+                    <button><i class="fa fa-trash"></i> Eliminar</button>
+                  </div>
+                </td>
+              </tr>
+
+              <tr>
+                <td>Angel</td>
+                <td>Azul</td>
+                <td>Sanchez</td>
+                <td>271-234-2003</td>
+                <td>angel.azul@utcv.edu.mx</td>
+                <td>
+                  <div class="operaciones">
+                    <a href="vista-pacientes.html#2">
+                      <button><i class="fa fa-eye"></i> Ver</button>
+                    </a>
+                    <button><i class="fa fa-pencil"></i> Editar</button>
+                    <button><i class="fa fa-trash"></i> Eliminar</button>
+                  </div>
+                </td>
+              </tr>
+
+              <tr>
+                <td>Emmanuel</td>
+                <td>Mendez</td>
+                <td>Dominguez</td>
+                <td>271-345-1903</td>
+                <td>emmanuel.mendez@utcv.edu.mx</td>
+                <td>
+                  <div class="operaciones">
+                    <a href="vista-pacientes.html#3">
+                      <button><i class="fa fa-eye"></i> Ver</button>
+                    </a>
+                    <button><i class="fa fa-pencil"></i> Editar</button>
+                    <button><i class="fa fa-trash"></i> Eliminar</button>
+                  </div>
+                </td>
+              </tr>
+
+              <tr>
+                <td>Paulina</td>
+                <td>Cruz</td>
+                <td>Juarez</td>
+                <td>271-123-2205</td>
+                <td>paulina.cruz@utcv.edu.mx</td>
+                <td>
+                  <div class="operaciones">
+                    <a href="vista-pacientes.html#4">
+                      <button><i class="fa fa-eye"></i> Ver</button>
+                    </a>
+                    <button><i class="fa fa-pencil"></i> Editar</button>
+                    <button><i class="fa fa-trash"></i> Eliminar</button>
+                  </div>
+                </td>
+              </tr>
+
+              <tr>
+                <td>Obed</td>
+                <td>Capistran</td>
+                <td>Velazquez</td>
+                <td>271-145-1803</td>
+                <td>obed.capistran@utcv.edu.mx</td>
+                <td>
+                  <div class="operaciones">
+                    <a href="vista-pacientes.html#5">
+                      <button><i class="fa fa-eye"></i> Ver</button>
+                    </a>
+                    <button><i class="fa fa-pencil"></i> Editar</button>
+                    <button><i class="fa fa-trash"></i> Eliminar</button>
+                  </div>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+    </section>
+  </body>
+</html>
